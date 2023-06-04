@@ -5,10 +5,11 @@ class MyComponent extends Component {
         super(props)
     }
     render() {
+        const {title, onButtonClicked } = this.props
         return (
             <div>
                 <h1>{this.props.title}</h1>
-                <button onClick={this.props.onButtonClicked}>Click Me!</button>
+                <button onClick={onButtonClicked}>Click Me!</button>
             </div>
         )
     }
