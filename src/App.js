@@ -12,7 +12,7 @@ class App extends Component {
   onClickBtn() {
     console.log('Button has been clicked!')
   }
-
+  
   render() {
     return (
       <div>
